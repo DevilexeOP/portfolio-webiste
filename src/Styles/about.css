@@ -1,0 +1,71 @@
+#about {
+  height: 100vh;
+}
+
+#abt {
+  position: relative;
+  font-size: 60px;
+  margin-left: 250px;
+  margin-top: 26rem;
+}
+
+#img1 {
+  position: relative;
+  margin-left: 1050px;
+  margin-top: 5rem;
+}
+
+#img2 {
+  position: relative;
+  margin-left: 1210px;
+  margin-top: -1rem;
+}
+
+#img3 {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: -3rem;
+}
+
+#img4 {
+  position: relative;
+  margin-left: 1110px;
+  margin-top: -2rem;
+}
+
+#para1 {
+  position: relative;
+  margin-top: -25rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#para2 {
+  position: relative;
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: lighter;
+}
+#para02 {
+  position: relative;
+  margin-top: 0.2rem;
+  font-size: 28px;
+  font-weight: lighter;
+}
+#para03 {
+  position: relative;
+  margin-top: 0.2rem;
+  font-size: 28px;
+  font-weight: lighter;
+}
+#para3 {
+  position: relative;
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: lighter;
+}
+#para4 {
+  position: relative;
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: lighter;
+}

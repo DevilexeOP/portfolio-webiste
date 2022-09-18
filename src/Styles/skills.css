@@ -1,0 +1,105 @@
+#mySkills {
+  height: 100vh;
+}
+
+#myskill {
+  position: relative;
+  font-size: 60px;
+  margin-left: 250px;
+  margin-top: 2rem;
+}
+
+#Des {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+#comp1 {
+  position: absolute;
+  margin-left: 375px;
+  margin-top: 200px;
+}
+#comp2 {
+  position: absolute;
+  margin-left: 1140px;
+  margin-top: 200px;
+}
+
+#Front {
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 30px;
+}
+
+#p {
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 120px;
+  font-size: 27px;
+}
+#p1 {
+  position: absolute;
+  margin-left: 1230px;
+  margin-top: 120px;
+  font-size: 27px;
+}
+#p2 {
+  position: relative;
+  font-weight: lighter;
+  margin-left: 400px;
+  margin-top: 270px;
+  font-size: 18px;
+}
+
+#p3 {
+  font-weight: bolder;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 6px;
+  font-size: 23px;
+}
+#p4 {
+  font-weight: lighter;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+#p5 {
+  font-weight: bolder;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 6px;
+  font-size: 23px;
+}
+
+#p6 {
+  font-weight: lighter;
+  font-size: 18px;
+  position: relative;
+  margin-left: 1170px;
+  margin-top: -340px;
+}
+
+#p7 {
+  font-weight: bolder;
+  position: relative;
+  margin-left: 1170px;
+  margin-top: 0px;
+  font-size: 23px;
+}
+
+#p8 {
+  font-weight: lighter;
+  font-size: 18px;
+  position: relative;
+  margin-left: 1170px;
+}
+
+#p9 {
+  font-weight: bolder;
+  position: relative;
+  margin-left: 1170px;
+  font-size: 23px;
+}

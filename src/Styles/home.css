@@ -24,6 +24,7 @@
 }
 
 #con {
+  font-weight: 300;
   position: relative;
   margin-left: 430px;
   margin-top: -665px;
@@ -35,10 +36,12 @@
 }
 
 #para {
+  font-weight: 300;
   position: relative;
   margin-left: 430px;
 }
 #paragraph {
+  font-weight: 300;
   position: relative;
   margin-left: 450px;
 }

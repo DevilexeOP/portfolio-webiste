@@ -1,0 +1,90 @@
+#contact {
+  height: 100vh;
+}
+
+#my-contact {
+  position: relative;
+  font-size: 60px;
+  margin-left: 250px;
+  margin-top: 13rem;
+}
+
+#p-10 {
+  position: relative;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 3rem;
+}
+
+#p-11 {
+  position: relative;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+#name {
+  color: white;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 80px;
+  width: 650px;
+  height: 50px;
+}
+#email {
+  color: white;
+  margin-top: 80px;
+  font-weight: lighter;
+  position: relative;
+  margin-left: -150px;
+  width: 550px;
+  height: 50px;
+}
+
+#subject {
+  color: white;
+  font-weight: lighter;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 1265px;
+  height: 50px;
+}
+
+#textArea {
+  color: white;
+  font-weight: lighter;
+  color: white;
+  border: none;
+  background: #161616;
+  position: relative;
+  margin-left: 115px;
+  width: 1265px;
+  height: 280px;
+  margin-top: 30px;
+  resize: none;
+}
+
+#button {
+  background: #ffb800;
+  position: relative;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 230px;
+  height: 69px;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+.form-control {
+  background-color: #161616;
+  border: none;
+  display: flex;
+  padding: 0.375rem 0.75rem;
+  transition: none;
+}

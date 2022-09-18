@@ -1,0 +1,88 @@
+#projects {
+  height: 100vh;
+}
+
+#project {
+  position: relative;
+  font-size: 60px;
+  margin-left: 250px;
+  margin-top: 13rem;
+}
+
+#video {
+  position: relative;
+  width: 1000px;
+  margin-top: 40px;
+}
+
+#About {
+  position: relative;
+  margin-left: 1050px;
+  margin-top: -590px;
+}
+#About:hover {
+  position: relative;
+  margin-left: 1050px;
+  margin-top: -590px;
+  border: 0.5px solid rgb(255, 174, 0);
+  transition: 0.5s all;
+}
+
+#pro {
+  position: relative;
+  margin-top: -560px;
+  margin-left: 1070px;
+  text-align: center;
+  font-size: 27px;
+}
+
+#pros {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 1075px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 23px;
+}
+
+#pr {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 1075px;
+  font-size: 20px;
+}
+
+#into {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 1075px;
+  font-size: 20px;
+}
+
+#h6 {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 1075px;
+  font-size: 20px;
+}
+
+#visit {
+  font-size: 20px;
+  color: rgb(255, 174, 0);
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  margin-left: 1075px;
+  text-decoration: none;
+}
+#visit:hover {
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 174, 0);
+  position: relative;
+  font-size: 20px;
+  margin-left: 1075px;
+  text-decoration: underline;
+  transition: 0.5s all;
+}
