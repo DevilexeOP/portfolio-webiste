@@ -23,12 +23,12 @@ export default function App() {
       />
       <About
         title="<About/>"
-        para1="< I’m Netram. Nice to meet you </>  "
+        para1="< Hey Fellas ! I’m Netram. Nice to meet you </>  "
         para2="< I have  been freelancing as a Graphic Designer"
         para02=" and Video Editor over a year and I have started Frontend "
-        para03="Developement few months ago . This field interests me more
+        para03="Developement few months ago .
         </>  "
-        para3="<Other Programming languages I know are Python,Php,Node.js</>  "
+        para3="<I know languages such as C++,Java,python and I'm currently doing DSA</>  "
         para4="< I am kinda familiar with React.js and I like to work on reactbased 
         projects</>  "
       />

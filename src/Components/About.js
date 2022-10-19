@@ -1,9 +1,9 @@
 import React from "react";
 import "../Styles/about.css";
 import img1 from "../reactjs.png";
-import img2 from "../html.png";
-import img3 from "../css.png";
-import img4 from "../js.png";
+import img2 from "../AiMl.png";
+import img3 from "../Dsa.png";
+import img4 from "../C++.png";
 
 export default function About(props) {
   return (

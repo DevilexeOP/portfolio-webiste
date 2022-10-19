@@ -1,39 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/contact.css";
-import { db } from "../firebase";
 
 const Contact = (props) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
-  const [loader, setLoader] = useState(true);
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // setLoader(true);
-
-    db.collection("contact")
-      .add({
-        name: name,
-        email: email,
-        subject: subject,
-        message: message,
-      })
-      .then(() => {
-        alert("Message has been sent");
-        // setLoader(false);
-      })
-      .catch((error) => {
-        alert(error.message);
-        // setLoader(false);
-      });
-    setName("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-  };
-
   return (
     <React.Fragment>
       <section id="contact">
@@ -76,7 +44,6 @@ const Contact = (props) => {
         </div>
 
         <form
-          onSubmit={handleSubmit}
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-sine"
           data-aos-delay="1500"
@@ -89,8 +56,6 @@ const Contact = (props) => {
                 placeholder="Name"
                 className="form-control"
                 id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
               />
             </div>
             <div className="col-3">
@@ -99,8 +64,6 @@ const Contact = (props) => {
                 placeholder="Email"
                 id="email"
                 className="form-control"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
 
@@ -110,27 +73,14 @@ const Contact = (props) => {
                 placeholder="Subject"
                 id="subject"
                 className="form-control"
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
               />
             </div>
 
-            <textarea
-              name="textarea"
-              id="textArea"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            >
+            <textarea name="textarea" id="textArea">
               Message
             </textarea>
           </div>
-          <button
-            type="submit"
-            id="button"
-            style={{
-              background: loader ? "#FFB800" : "#ccc",
-            }}
-          >
+          <button type="submit" id="button">
             Send Message
           </button>
         </form>

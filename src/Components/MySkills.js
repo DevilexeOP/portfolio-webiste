@@ -57,7 +57,9 @@ export default function MySkills(props) {
           data-aos-easing="ease-in-sine"
           data-aos-delay="1400"
         >
-          Frontend Developer
+          Programming
+          
+
         </p>
         <img
           src={comp1}
@@ -182,7 +184,7 @@ export default function MySkills(props) {
           data-aos-delay="1800"
           data-aos-offset="0"
         >
-          Html,Css,Javascript,React
+          C++,Java,Python,React.js
         </p>
         <p
           style={{

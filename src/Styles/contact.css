@@ -28,7 +28,7 @@
   color: white;
   font-weight: lighter;
   position: relative;
-  margin-left: 100px;
+  margin-left: 230px;
   margin-top: 80px;
   width: 650px;
   height: 50px;
@@ -38,7 +38,7 @@
   margin-top: 80px;
   font-weight: lighter;
   position: relative;
-  margin-left: -150px;
+  margin-left: -50px;
   width: 550px;
   height: 50px;
 }
@@ -47,9 +47,9 @@
   color: white;
   font-weight: lighter;
   position: relative;
-  margin-left: 100px;
+  margin-left: 230px;
   margin-top: 30px;
-  width: 1265px;
+  width: 1235px;
   height: 50px;
 }
 
@@ -60,8 +60,8 @@
   border: none;
   background: #161616;
   position: relative;
-  margin-left: 115px;
-  width: 1265px;
+  margin-left: 245px;
+  width: 1235px;
   height: 280px;
   margin-top: 30px;
   resize: none;
@@ -71,8 +71,8 @@
   background: #ffb800;
   position: relative;
   padding: 15px;
-  margin-top: 20px;
-  margin-left: 100px;
+  margin-top: 25px;
+  margin-left: 240px;
   width: 230px;
   height: 69px;
 }
